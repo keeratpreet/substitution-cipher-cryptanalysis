@@ -44,3 +44,7 @@ Letters that never appear in the ciphertext can't be inferred and are left as `x
 - Performance degrades on very short ciphertexts (not enough n-gram signal to distinguish candidates).
 - Relies on the accuracy of the underlying English trigram/quadgram statistics.
 - Difficult instances may need multiple runs since simulated annealing is randomized.
+
+## License
+
+Released under the [MIT License](LICENSE).
